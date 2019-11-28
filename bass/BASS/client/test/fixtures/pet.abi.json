@@ -1,0 +1,68 @@
+{
+  "version": "0.2",
+  "language": "lua",
+  "functions": [
+    {
+      "name": "get",
+      "view": true,
+      "arguments": [
+        {
+          "name": "id"
+        }
+      ]
+    },
+    {
+      "name": "constructor",
+      "payable": true,
+      "arguments": [
+        {
+          "name": "id"
+        },
+        {
+          "name": "breed"
+        },
+        {
+          "name": "sex"
+        },
+        {
+          "name": "age"
+        },
+        {
+          "name": "area"
+        },
+        {
+          "name": "price"
+        },
+        {
+          "name": "owner_id"
+        }
+      ]
+    },
+    {
+      "name": "set",
+      "arguments": [
+        {
+          "name": "id"
+        },
+        {
+          "name": "breed"
+        },
+        {
+          "name": "sex"
+        },
+        {
+          "name": "age"
+        },
+        {
+          "name": "area"
+        },
+        {
+          "name": "price"
+        },
+        {
+          "name": "owner_id"
+        }
+      ]
+    }
+  ]
+}
